@@ -1,7 +1,7 @@
 while True:   
  #asking user to enter the two numbers and the preffered operator 
-    num1 = int(input ("Please type your first number: "))
-    num2 = int(input ("Please type your second number: "))
+    num1 = float(input ("Please type your first number: "))
+    num2 = float(input ("Please type your second number: "))
     operator = input("Choose one: (+, -,  /, *): ").strip()
     answer = "ERROR!! DIVISION BY 0 NOT ALLOWED"
     #operation based to the users input
