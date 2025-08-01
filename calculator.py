@@ -27,5 +27,5 @@ while True:
     # Ask if the user wants to calculate again
     again = input("Do you want to calculate again? (yes/no): ").strip().lower()
     if again != "yes":
-        print("Thanks for using Erick's calculator. Goodbye! ")
+        print("Thanks for using Erick's calculator. Goodbye!")
         break
